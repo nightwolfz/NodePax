@@ -1,0 +1,29 @@
+{
+  "name": "nodeframe",
+  "version": "1.0.0",
+  "description": "NodeFrame Template",
+  "main": "index.js",
+  "author": "Ryan Megidov",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "express": "4.12.3",
+    "async": "0.9.0",
+    "lodash": "3.7.0",
+    "body-parser": "^1.12.3",
+    "cookie-parser": "^1.3.4",
+    "errorhandler": "^1.3.5"
+  },
+  "devDependencies": {
+    "supertest": "0.15.0",
+    "should": "6.0.1"
+  },
+  "scripts": {
+    "dev": "npm install",
+    "test": "mocha",
+    "docs": "yuidoc . -o docs"
+  }
+}
