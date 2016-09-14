@@ -1,3 +1,6 @@
+**Do not use in production, it's silly !**
+
+
 # The PAX way
 
 A project meant to structure node.js projects.
